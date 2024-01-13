@@ -3,8 +3,9 @@
 const CustomFooterComponent = () => {
     return (
         <>
-            <div>
-                <div className="nav-item mx-4">
+            <div className="nav-item mx-2 my-3">
+                <div className="nav-item mx-5">
+                    
                     <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" fill="currentColor"
                         class="bi bi-facebook text-secondary me-4" viewBox="0 0 16 16">
                         <path
@@ -39,8 +40,8 @@ const CustomFooterComponent = () => {
                     <li class="nav-item">
                         <a class="nav-link text-secondary">Contact Us</a>
                     </li>
-                    <li class="nav-item mt-2">
-                        <button class="btn btn-outline-secondary">Service Code</button>
+                    <li class="nav-item">
+                        <button class="btn btn-outline-secondary ">Service Code</button>
                     </li>
                     <li class="nav-item mt-2">
                         <a class="nav-link text-secondary">© 1997-2021 Netflix Inc</a>
