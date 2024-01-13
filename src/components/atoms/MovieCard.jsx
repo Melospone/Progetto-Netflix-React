@@ -18,7 +18,7 @@ const MovieCard = ({ poster, title }) => {
       <Card.Img
         style={{
           width: "100%", 
-          maxHeight: "70%", 
+          maxHeight: "80%", 
           objectFit: "cover",
         }}
         variant="top"

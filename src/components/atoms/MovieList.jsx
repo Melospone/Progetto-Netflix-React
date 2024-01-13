@@ -5,6 +5,7 @@ import { Container, Row } from "react-bootstrap";
 const MovieList = ({ movies }) => {
   return (
     <>
+    
       <Container fluid className="d-flex flex-wrap ms-5">
         <Row>
           {movies.map((movie) => (
