@@ -1,4 +1,3 @@
-
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -35,7 +34,7 @@ function CustomNavbar() {
           <div className="d-flex position relative mt-2 me-4">
             <img src="../src/assets/images/bell-solid.svg" alt="bell" width="15px"/>
           </div>
-        </div>  
+        </div>
         <div className="mt-2">
           <DropdownButtonCustom/>
         </div>

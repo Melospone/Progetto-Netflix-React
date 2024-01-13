@@ -5,7 +5,7 @@ const MovieCard = ({ poster, title }) => {
   return (
     <Card
       style={{
-        backgroundColor: "#222",
+        backgroundColor: "#212529",
         width: "15rem",
         margin: "10px",
         gap: "4px",
@@ -13,18 +13,19 @@ const MovieCard = ({ poster, title }) => {
         flexDirection: "column",
         alignItems: "center",
         position: "relative",
+        border: "none"
       }}
     >
       <Card.Img
         style={{
           width: "100%", 
-          maxHeight: "80%", 
+          maxHeight: "75%", 
           objectFit: "cover",
         }}
         variant="top"
         src={poster}
       />
-      <Card.Body style={{ position: "absolute", bottom: 0, width: "100%" }}>
+      <Card.Body style={{ position: "absolute", bottom: 0, width: "100%",backgroundColor: "#212529" }}>
         <h6 style={{ textAlign: "center", color: "white" }}>{title}</h6>
       </Card.Body>
     </Card>

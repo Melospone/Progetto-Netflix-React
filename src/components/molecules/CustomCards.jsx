@@ -29,7 +29,7 @@ const CustomCards = () => {
     const fetchData = async () => {
       const movies1 = await fetchMovies("http://www.omdbapi.com/?s=avatar&apikey=4f2bbfac");
       const movies2 = await fetchMovies("http://www.omdbapi.com/?s=harry%20potter&apikey=4f2bbfac");
-      const movies3 = await fetchMovies("http://www.omdbapi.com/?s=star%20wars&apikey=4f2bbfac");
+      const movies3 = await fetchMovies("http://www.omdbapi.com/?s=futurama&apikey=4f2bbfac");
 
       setMovies([...movies1, ...movies2, ...movies3]);
     };
@@ -39,7 +39,7 @@ const CustomCards = () => {
 
   return (
     <div>
-      <h1 style={{ color: 'white', fontSize: '24px', padding: '20px' }}>Film Preferiti</h1>
+      <h1 style={{ color: 'white', fontSize: '24px', padding: '20px', marginLeft: "25px" }}>Film Preferiti</h1>
       
       <MovieList movies={movies} />
       
