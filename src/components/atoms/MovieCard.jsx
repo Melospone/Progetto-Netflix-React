@@ -19,16 +19,15 @@ const MovieCard = ({ poster, title }) => {
       <Card.Img
         style={{
           width: "100%", 
-          maxHeight: "75%", 
-          objectFit: "cover",
+          maxHeight: "80%", 
         }}
-        variant="top"
         src={poster}
       />
-      <Card.Body style={{ position: "absolute", bottom: 0, width: "100%",backgroundColor: "#212529" }}>
+      <Card.Body style={{ position: "absolute", bottom: 0, width: "90%",backgroundColor: "#212529" }}>
         <h6 style={{ textAlign: "center", color: "white" }}>{title}</h6>
       </Card.Body>
     </Card>
+    
   );
 };
 

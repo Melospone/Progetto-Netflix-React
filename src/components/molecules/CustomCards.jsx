@@ -8,11 +8,13 @@ const CustomCards = () => {
     try {
       const response = await fetch(url);
       const data = await response.json();
+      console.log(data);
 
       if (data.Response === "True") {
         return data.Search.slice(0, 9).map((movie) => ({
+          
           ...movie,
-
+          
           url: `http://www.omdbapi.com/?s=${movie.imdbID}`, 
         }));
       } else {
@@ -27,9 +29,10 @@ const CustomCards = () => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const movies1 = await fetchMovies("http://www.omdbapi.com/?s=avatar&apikey=4f2bbfac");
+      const movies1 = await fetchMovies("http://www.omdbapi.com/?s=one%20piece&apikey=4f2bbfac");
       const movies2 = await fetchMovies("http://www.omdbapi.com/?s=harry%20potter&apikey=4f2bbfac");
       const movies3 = await fetchMovies("http://www.omdbapi.com/?s=futurama&apikey=4f2bbfac");
+    
 
       setMovies([...movies1, ...movies2, ...movies3]);
     };

@@ -2,6 +2,8 @@ import React from 'react';
 import MovieCard from './MovieCard';
 import { Container, Row } from "react-bootstrap";
 
+
+
 const MovieList = ({ movies }) => {
   return (
     <>
