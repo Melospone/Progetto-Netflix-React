@@ -101,7 +101,7 @@ const CustomFooter = () => {
               <p className="text-secondary">Terms Of Use</p>
               <p className="text-secondary">Corporate Information</p>
             </div>
-            <p className="text-secondary">Â©1997-2021 Netflix Inc</p>
+            <p className="text-secondary">©1997-2021 Netflix Inc</p>
           </Row>
         </Container>
       </Container>
