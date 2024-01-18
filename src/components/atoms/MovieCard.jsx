@@ -1,9 +1,11 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
 
+
+
 const MovieCard = ({ poster, title }) => {
   return (
-    <Card
+    <Card className='card'
       style={{
         backgroundColor: "#212529",
         width: "15rem",

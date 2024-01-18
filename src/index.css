@@ -2,3 +2,8 @@
 body {
     background-color: #212529;
 }
+
+.card:hover {
+    transform: scale(1.2);
+}
+
