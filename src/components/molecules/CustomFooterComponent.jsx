@@ -5,8 +5,8 @@ import Col from "react-bootstrap/Col";
 const CustomFooter = () => {
   return (
     <>
-      <Container fluid className="bg-dark pt-2">
-        <Container fluid className="ms-5">
+      <Container fluid className="bg-dark pt-2 my-3">
+        <Container fluid>
           <Row>
             <Col>
               <a

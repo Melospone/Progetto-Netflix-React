@@ -1,6 +1,5 @@
 import CustomFooterComponent from "../molecules/CustomFooterComponent"
 
-
 const CustomFooter = () => {
     return (
         <>
